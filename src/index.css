@@ -8,6 +8,11 @@
   src: url(./fonts/ITCGaramondStd-LtCondIta.woff2);
 }
 
+@font-face {
+  font-family: HG Seikaishotai PRO;
+  src: url(./fonts/hgrskp_0.TTF);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -43,7 +48,7 @@ p{
 }
 
 .biau-font {
-  font-family: BiauKai;
+  font-family: HG Seikaishotai PRO;
   border-bottom: 1px solid black;
   padding-bottom: 5px;
 }
@@ -57,6 +62,7 @@ button {
   margin: 100px 30px;
   padding: 5px 30px;
   font-size: 25px;
+  color: black;
 }
 
 .black-btn {
@@ -86,13 +92,14 @@ button {
 }
 
 .category-btn {
-  font-size: 25px;
+  font-size: 20px;
   padding: 20px 30px;
   margin: 5px 0px;
+  color: black;
 }
 
 .interview-question {
-  font-size: 40px;
+  font-size: 25px;
   text-align: center;
 }
 
@@ -101,7 +108,7 @@ button {
 }
 
 .countdown-txt {
-  font-family: BiauKai;
+  font-family: HG Seikaishotai PRO;
   font-size: 50px
 }
 
