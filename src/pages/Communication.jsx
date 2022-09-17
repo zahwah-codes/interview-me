@@ -32,7 +32,7 @@ function Communication() {
       <h1><span className="interview-question">{randomQuestion.question}</span></h1>
       <Countdown />
       <div className="question-page_btn">
-       <button className="black-btn" onClick={() => navigate(-1)}> <span className="garamond-font">back</span> to categories</button>
+       <button className="black-btn" onClick={() => navigate(-1)}> <span className="garamond-font">back to </span>categories</button>
        </div>
     </div>
   );

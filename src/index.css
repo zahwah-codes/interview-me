@@ -118,12 +118,13 @@ button {
   align-items: center;
 }
 .how-to {
-  margin-bottom: 70px;
+  margin-bottom: 50px;
+  margin-top: 70px;
 }
 
 .instructions {
   margin-top: 40px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 @media only screen and (min-width: 1300px) {
