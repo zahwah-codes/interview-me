@@ -11,7 +11,7 @@ const Home = (props) => {
       {/* Button */}
       <div className="home-page_btns">
       <button className="black-btn" onClick={() => navigate("/instructions")}><span className="garamond-font">check</span> instructions</button>
-      <button onClick={() => navigate("/category")}><span className="garamond-font">let's</span> start!</button>
+      <button style={{color: 'black'}} onClick={() => navigate("/category")}><span className="garamond-font">let's</span> start!</button>
       </div>
 
     </>
