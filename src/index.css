@@ -19,10 +19,11 @@
   box-sizing: border-box;
   font-family: PP Neue Montreal;
   font-weight: 400;
+  overflow: hidden;
 }
 
 body {
-  margin: 0;
+  margin-top: 50px;
   display: flex;
   justify-content: center;
   place-items: center;
@@ -70,16 +71,35 @@ button {
   background-color: black;
 }
 
-.home-page_btns, .completed-page_btn, .back-home_btn{
+.completed-page_btn, .back-home_btn{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.home-page_btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.home-page_txt{
+  margin-bottom: 50px;
+  font-size: 2rem;
+}
+
+.home-btn{
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 10px;
+}
+
 .category-page {
-  margin-top: 150px;
+  margin-top: 50px;
 }
 .category-page_main-text {
+  font-size: 36px;
   margin-bottom: 40px;
 }
 
@@ -127,6 +147,12 @@ button {
   font-size: 20px;
 }
 
+@media only screen and (min-width: 800px) {
+  .home-page_txt{
+    font-size: 50px;
+  }
+}
+
 @media only screen and (min-width: 1300px) {
 
   button{
@@ -136,6 +162,17 @@ button {
 
   h1{
     font-size: 70px;
+  }
+
+  .home-page_txt{
+    font-size: 70px;
+  }
+  .home-page_btns{
+    flex-direction: row;
+  }
+
+  .home-btn{
+    font-size: 2rem;
   }
   
   .category-page_btns{
